@@ -27,7 +27,7 @@ const Introduction = () => {
         <Typography align='left' fontWeight={400} fontFamily='montserrat' mt={1.3} variant="h6" component="h6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugit veniam, dignissimos officiis ipsam id distinctio sapiente quae ratione sunt earum adipisci. Fuga, laborum. Dignissimos illum odit delectus dolorum iusto?
         </Typography>
-        <Link style={{border:1, padding:'10px', alignSelf:'flex-end'}} to='/report'><Button variant="contained"  sx={{fontFamily:'montserrat', mt:5, bgcolor:'#070d25', alignSelf:'flex-end'}}>next</Button></Link>
+        <Link style={{border:1, padding:'10px', alignSelf:'flex-end'}} to='/detail'><Button variant="contained"  sx={{fontFamily:'montserrat', mt:5, bgcolor:'#070d25', alignSelf:'flex-end'}}>next</Button></Link>
     </Stack>
   )
 }

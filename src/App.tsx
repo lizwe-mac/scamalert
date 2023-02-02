@@ -6,7 +6,9 @@ import ActionAreaCard from './components/ActionAreaCard';
 import { createTheme, ThemeProvider } from '@mui/system';
 import Home from './pages/Home'
 import Report from './pages/Report'
+import Details from './components/Details';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   
@@ -17,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/report' element={<Report/>}/>
+          <Route path='/detail' element={<Details/>}/>
 
         </Routes>
       </Router>
